@@ -8,7 +8,7 @@
   <style>
     @keyframes spinOnce {
       from { transform: rotate(-180deg); }
-      to { transform: rotate(110deg); }
+      to { transform: rotate(100deg); }
     }
       @keyframes fadeOut {
       0% { opacity: 1; }
@@ -47,6 +47,7 @@
     }
     .fadeIn {
       animation: fadeIn 3s ease-in-out ;
+      animation-timeline: view();
     }
     .bounceSlow {
       animation: bounceSlow 1s infinite;
@@ -194,7 +195,7 @@
           <img src="static/images/screenshot (78).png" data-category="screenshots" class="gallery-item w-full h-32 hover:scale-110 object-cover rounded">
           <img src="static/images/screenshot (79).png" data-category="screenshots" class="gallery-item w-full h-32 hover:scale-110 object-cover rounded">
           <img src="static/images/screenshot (80).png" data-category="screenshots" class="gallery-item w-full h-32 hover:scale-110 object-cover rounded">
-          <video src="static/videos/registration_form_record_vedio.mp4" data-category="videos" class="gallery-item w-full h-32 hover:scale-110 object-cover rounded" controls></video>
+          <video src="static/videos/registration_form record_vedio.mp4" data-category="videos" class="gallery-item w-full h-32 hover:scale-110 object-cover rounded" controls></video>
         </div>
   
         <a href="https://github.com/RamaKrishnaSrinivas/registration_form" class="text-green-400 hover:underline mt-2 inline-block">--> GitHub Link</a>
@@ -256,14 +257,14 @@
       <section id="contact" class="ring-2 ring-pink-400 hover:scale-105 transition bg-purple-800/30 backdrop-blur-md p-6 rounded-lg shadow-lg text-center">
         <h3 class="text-2xl sm:text-3xl font-bold text-cyan-400 mb-4 bounceUp">Contact Me</h3>
         <div class="flex justify-center space-x-6">
-          <a href="mailto:orugantirks@gmail.com"><img src="mail.png" alt="Email" class="w-8 sm:w-10 h-6 sm:h-8"></a>
-          <a href="https://www.linkedin.com/in/b84528306" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="w-8 sm:w-10 h-6 sm:h-8"></a>
-          <a href="https://github.com/RamaKrishnaSrinivas" target="_blank"><img src="github.png" alt="GitHub" class="w-8 sm:w-10 h-6 sm:h-8"></a>
+          <a href="mailto:orugantirks@gmail.com"><img src="static/images/mail.png" alt="Email" class="w-8 sm:w-10 h-6 sm:h-8"></a>
+          <a href="https://www.linkedin.com/in/b84528306" target="_blank"><img src="static/images/linkedin.png" alt="LinkedIn" class="w-8 sm:w-10 h-6 sm:h-8"></a>
+          <a href="https://github.com/RamaKrishnaSrinivas" target="_blank"><img src="static/images/github.png" alt="GitHub" class="w-8 sm:w-10 h-6 sm:h-8"></a>
         </div>
       </section>
       <div>
-        <a href="my_resume[1].pdf">
-          <img src="resume logo.jpg" class="hover:scale-105 mx-auto rounded-full w-40 sm:w-48 h-auto animate-pulse" alt="View Resume">
+        <a href="static/my_resume[1].pdf">
+          <img src="static/images/resume logo.jpg" class="hover:scale-105 mx-auto rounded-full w-40 sm:w-48 h-auto animate-pulse" alt="View Resume">
         </a>
       </div>
     </div>
